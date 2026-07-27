@@ -99,6 +99,8 @@ Naive Bayes의 기본 가정인 모든 x가 독립이라는 가정 하에도
 precision, recall, f1-score에서 모두 수치가 낮은 y인 anxiety가 class들 중 가장 넓이가 작게 그려진 것을 확인할 수 있었다.
 (AUC 값을 통해 확인)
 
+![alt text](image.png)
+
 이를 위해 label_binarize를 통해 y를 이진화하였고,
 
 y_test_bin[:, i] → 실제 정답
