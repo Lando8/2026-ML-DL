@@ -1,5 +1,5 @@
 ## 이해하지 못한 코드
-## 추후 수정 예
+## 추후 수정 예정
 
 import numpy as np
 import pandas as pd
